@@ -9,6 +9,7 @@ class Point {
 
   Point(this.x, this.y);
 
+  // nge override operator +, jadi Point bisa + Point
   Point operator +(Point other) {
     return Point(x + other.x, y + other.y);
   }

@@ -3,7 +3,7 @@ void main() {
   implementStringExtension();
 }
 
-extension StringExtension on String {
+extension Memek on String {
   String get reversed => split('').reversed.join();
 }
 

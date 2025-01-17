@@ -4,8 +4,8 @@ void main() {
 }
 
 void genericImplementation() {
-  List<T> createList<T>(T val, int count) {
-    return List<T>.filled(count, val);
+  List<T> createList<T>(T val, int length) {
+    return List<T>.filled(length, val);
   }
 
   var intList = createList<int>(42, 5);
