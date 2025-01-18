@@ -1,3 +1,5 @@
+// ignore_for_file: dead_code, pattern_never_matches_value_type
+
 void main() {
   recordPatternDesImpl();
 }

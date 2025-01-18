@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_type_check
+
 typedef IntList = List<int>;
 typedef ListMapper<X> = Map<X, List<X>>;
 typedef Compare<T extends int> = int Function(T a, T b);
